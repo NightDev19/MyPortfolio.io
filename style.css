@@ -91,10 +91,7 @@ ul li a:hover{
 .image:hover .MyPhoto{
     left: 55%;
 }
-.icon a{
-    text-decoration: none;
-    color:#000;
-}
+
 .icons ion-icon{
     margin-left: 7%;
     color: #000;
@@ -104,4 +101,74 @@ ul li a:hover{
 }
 .icons ion-icon:hover{
     color: rgb(34, 160, 192);
+}
+@media screen and (max-width: 600px) {
+    .info h1 {
+        position: absolute;
+        bottom:200px;
+        font-size: 20px;
+    }
+    .info h3{
+        position: absolute;
+        bottom:120px;
+        font-size: 13px;
+        
+    }
+    .info h2{
+        position: absolute;
+        bottom:230px;
+        font-size: 15px;
+
+    }
+    .info a{
+        position: absolute;
+        bottom:80px;
+        margin: 10px 0;
+        padding: 5px 9px ;
+     }
+    .navbar{
+        width: 86%;
+        display: flex;
+        margin: auto;
+        padding: 10px 0;
+        align-items: center;
+        justify-content: space-around;
+    }
+    ul li a{
+        font-size: 12px;
+        font-weight: bold;
+        text-decoration: none;
+        color: darkslategray;
+    }
+      .navbar .logo{
+        width: 40px;
+        cursor: pointer;
+        margin-top: 2%; 
+        margin-left: 0;
+    }
+    
+    .image{
+        width: 30%;
+        height: 60%;
+        position: absolute;
+        right: 250px;
+        bottom: 0;
+    }
+    .image img{
+        position: absolute;
+        height: 80%;
+        left: 50%;
+        transform: translate(-65%);
+        bottom: 70%;
+        transition: left 2s ease;
+    }
+    .icons ion-icon{
+        position: absolute;
+        bottom: 50px;
+        font-size: 20px;
+    }
+    .icons a{
+        margin:20px;   
+    }
+
 }
