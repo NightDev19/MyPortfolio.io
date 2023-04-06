@@ -177,6 +177,9 @@ span{
     font-size: 15px;
 }*/
 @media screen and (max-width:930px){
+    .hero{
+        min-height: 100vh;
+    }
     .container{
         padding-top: 50px;
     }
@@ -194,10 +197,11 @@ span{
 
     }
     .social a{
-        width: 20px;
-        height: 20px;
+        width: 17px;
+        height: 17px;
+        margin-right: 10px;
         border-radius: 50%;
-        font-size: 10px;
+        font-size: 8px;
         margin-bottom: 25px;
     }
     .container .hero-text button{
