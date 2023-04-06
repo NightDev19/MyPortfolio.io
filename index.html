@@ -4,42 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>NightDev</title>
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-<!--Header-->
-    <div class="main">
-        <div class="navbar">
-            <img src="Pics/pokemon.png" class="logo">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Skill</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contacts</a></li>
-                </ul>
+    <section class="hero">
+        <div class="main-width">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-s"></i>
+                </div>
+                <nav>
+                    <div class="hamb">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="nav-list">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Works</a></li>
+                        <li class="btn"><a href="">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="hero-text">
+                    <h3>Hello, There!</h3>
+                    <h1>I am <span class="input"></span></h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="social">
+                        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-google"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <button type="button">More About Me</button>
+                </div>
+                <div class="bottom">
+                    <p>© 2023 Sherwin Tajan - All Right Reserved.</p>
+                </div>
+            </div>
         </div>
-
-        <div class="info">
-            <h2>Hi ,Im <span>Sherwin Jefferson Tajan</span>.</h2>
-            <h1> <span>A</span>PPLICATION <span>D</span>EVELOPER</h1>
-            <h3>Application developer and designer from Batangas,Philippines.
-                <br> I create a  application to do some self project to <br> improve my skills </h3>
-                <a href="#">Hire Me</a>
-        </div>
-        <div class="image">
-            <img src="Pics/MyGradPic-removebg-preview.png" alt="" class="MyPhoto">
-        </div>
-
-        <div class="icons">
-            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
-            <a href="#"><ion-icon name="logo-github"></ion-icon></a>
-        </div>
-    </div>
-
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    </section>
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        const typed = new Typed(".input",{
+            strings:["Sherwin Jefferson Tajan.","Full Stack Developer.","UI/UX Designer.","Otaku / Weeb."],
+            typeSpeed : 70,
+            backSpeed : 60,
+            loop: true
+        })
+    </script>
 </body>
-</html>
+</html>  
