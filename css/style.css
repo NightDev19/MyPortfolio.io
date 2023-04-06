@@ -17,8 +17,8 @@ body{
 }
 .hero{
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     min-height: 90vh;
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Pics/background.jpg);
     background-size: cover;
@@ -103,7 +103,7 @@ nav .nav-list li.btn:hover a{
 }
 /*HEADER BODY------------------------------------------------------------------------------------------------*/
 .container{
-    padding-top: 140px;
+    padding-top: 100px;
 }
 .container .hero-text{
     margin-bottom: 40px;
@@ -167,7 +167,7 @@ span{
     color: #2ecc71;
     transition: .4s;
 }
-.bottom{
+/*.bottom{
     margin-top: 235px;
     padding-bottom: 40px;
 }
@@ -175,8 +175,36 @@ span{
     color: #eee;
     letter-spacing: 2px;
     font-size: 15px;
-}
+}*/
 @media screen and (max-width:930px){
+    .container{
+        padding-top: 50px;
+    }
+    .container .hero-text h1{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .container .hero-text h3{
+        font-weight: 200;
+        font-size: 12px;
+    }
+    .container .hero-text p{
+        font-size: 10px;
+        margin-bottom: 20px;
+
+    }
+    .social a{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        font-size: 10px;
+        margin-bottom: 25px;
+    }
+    .container .hero-text button{
+        font-size: 10px;
+        font-weight: 300;
+        padding: 4px 15px;
+    }
     nav .hamb{
         display: initial;
     }
@@ -204,7 +232,7 @@ span{
         top: 90px;
         right: -65%;
         bottom: 0;
-        width: 60%;
+        width: 50%;
         height: 50%;
         background: black;
         z-index: 2;
@@ -218,18 +246,18 @@ span{
     nav .nav-list li a{
         display: block;
         text-align: center;
-        font-size: 18px;
+        font-size: 12px;
         font-weight: 400;
         margin-left: 0;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
     nav .nav-list li.btn a{
         position: absolute;
         bottom: 0%;
         right: 20%;
         left: 20%;
-        padding: 7px 15px;
-        font-size: 14px;
+        padding: 3px 7px;
+        font-size: 12px;
     }
     nav .nav-list.open{
         right: 0;
