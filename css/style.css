@@ -73,6 +73,7 @@ nav .nav-list li{
     display: inline-block;
 }
 nav .nav-list li a{
+    position: relative;
     display: inline-block;
     color: #eee;
     margin-left: 55px;
