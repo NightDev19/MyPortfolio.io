@@ -185,23 +185,23 @@ span{
     }
     .container .hero-text h1{
         font-size: 25px;
-        font-weight: 0;
+        font-weight: 500;
     }
     .container .hero-text h3{
         font-size: 15px;
         font-weight: 230;
     }
     .container .hero-text p{
-        font-size: 15px;
+        font-size: 12px;
         margin-bottom:20px;
 
     }
     .social a{
-        width: 17px;
-        height: 17px;
+        width: 20px;
+        height: 20px;
         margin-right: 10px;
         border-radius: 50%;
-        font-size: 8px;
+        font-size: 11px;
         margin-bottom: 25px;
     }
     .container .hero-text button{
