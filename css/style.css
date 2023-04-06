@@ -184,16 +184,16 @@ span{
         padding-top: 50px;
     }
     .container .hero-text h1{
-        font-size: 20px;
-        font-weight: 450;
+        font-size: 25px;
+        font-weight: 0;
     }
     .container .hero-text h3{
-        font-weight: 200;
-        font-size: 12px;
+        font-size: 15px;
+        font-weight: 230;
     }
     .container .hero-text p{
-        font-size: 10px;
-        margin-bottom: 20px;
+        font-size: 15px;
+        margin-bottom:20px;
 
     }
     .social a{
