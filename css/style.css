@@ -16,13 +16,14 @@ body{
     padding: 0px 20px;
 }
 .hero{
+    position: relative;
     width: 100%;
     height: 100%;
-    min-height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Pics/mypic-fotor-bg-remover-20230406134447.png);
+    min-height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Pics/background.jpg);
     background-size: cover;
     background-position: center;
-    position: relative;
+    
 }
 header{
     padding: 40px 0 20px;
@@ -199,6 +200,7 @@ span{
     }
     nav .nav-list{
         position: absolute;
+        display: none;
         top: 90px;
         right: -65%;
         bottom: 0;
@@ -231,5 +233,6 @@ span{
     }
     nav .nav-list.open{
         right: 0;
+        display: block;
     }
 }
