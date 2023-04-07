@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
     <section class="hero">
@@ -26,7 +27,7 @@
                     </div>
                     <ul class="nav-list">
                         <li><a href="">Home</a></li>
-                        <li><a href="">About</a></li>
+                        <li><a href="#AboutMe" id="linkAboutMe">About</a></li>
                         <li><a href="">Services</a></li>
                         <li><a href="">Works</a></li>
                         <li class="btn"><a href="">Contact Me</a></li>
@@ -53,8 +54,21 @@
             </div>
         </div>
     </section>
-    <section>
-        <h3>About Me</h3>
+    <!--About Me-->
+    <section class="about" id="AboutMe">
+        <div class="hero">
+            <h1 class="title">About Me</h1>
+            <div>
+                <img class="img2" src="./Pics/mypicnobg.png" alt="My Pic">
+            </div>
+            <div class="Info">
+                <h1>I'm Sherwin Jefferson Tajan! A <span id="type2"></span></h1>
+                <p>
+                    I like to get a challenging career, where I can enhance my professional experience and contribute significantly by using my skills and knowledge to add value to the organization.
+                </p>
+                <a href="" target="_blank" class="btn">Download Resume</a>
+            </div>
+        </div>
     </section>
 
 
@@ -68,6 +82,13 @@
             backSpeed : 60,
             loop: true
         })
+        new Typed("#type2",{
+            strings:["Student.","Full Stack Developer.","UI/UX Designer.","Otaku / Weeb."],
+            typeSpeed : 70,
+            backSpeed : 60,
+            loop: true
+        })
     </script>
+    
 </body>
 </html>  
