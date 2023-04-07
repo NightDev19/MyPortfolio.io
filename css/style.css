@@ -335,7 +335,7 @@ span{
     color: #2ecc71;
     transition: .4s;
 }
-@media screen and (max-width:930px){
+@media screen and (max-width:640px){
     .about .hero{
         height: 100vh;
     }
