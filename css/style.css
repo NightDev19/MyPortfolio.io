@@ -180,7 +180,6 @@ span{
 @media screen and (max-width:930px){
     .hero{
         height: 100vh;
-
     }
     .container{
         padding-top: 80px;
@@ -196,7 +195,6 @@ span{
     .container .hero-text p{
         font-size: 12px;
         margin-bottom:20px;
-
     }
     .social a{
         width: 25px;
@@ -212,9 +210,9 @@ span{
         padding: 4px 15px;
     }
     nav .hamb{
+        position: fixed;
         display: initial;
         top: 55px;
-
     }
     .click{
         top: 46px;
@@ -235,7 +233,7 @@ span{
         top: 0;
     }
     nav .nav-list{
-        position: absolute;
+        position: fixed;
         display: none;
         top: 90px;
         right: -65%;
@@ -426,6 +424,9 @@ span{
     transition: .4s;
 }
 @media screen and (max-width:930px){
+    .aboutme{
+        height: 100vh;
+    }
     img{
         display: none;
     }
