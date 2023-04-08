@@ -27,7 +27,7 @@
                     </div>
                     <ul class="nav-list">
                         <li><a href="">Home</a></li>
-                        <li><a href="#AboutMe" id="linkAboutMe">About</a></li>
+                        <li><a href="#LinkAboutMe" id="">About</a></li>
                         <li><a href="">Services</a></li>
                         <li><a href="">Works</a></li>
                         <li class="btn"><a href="">Contact Me</a></li>
@@ -37,7 +37,7 @@
             <div class="container">
                 <div class="hero-text">
                     <h3>Hello, There!</h3>
-                    <h1>I am <span class="input"></span></h1>
+                    <h1>I am a/an <span class="input"></span></h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <div class="social">
                         <a href=""><i class="fa-brands fa-square-facebook"></i></a>
@@ -55,6 +55,26 @@
         </div>
     </section>
     <!--About Me-->
+    <section class="hero aboutme" id="LinkAboutMe">
+        <div class="main-width">
+            <div class="container">
+                <div class="hero-text">
+                    <div class="title">
+                        <h1>About Me</h1>
+                    </div>
+                    <img src="./Pics/sample.gif" alt="">
+                    <div class="info">
+                        <h1> I am a/an <span class="input2"></span></h1>
+                        <p>
+                            I like to get a challenging career, where I can enhance my professional experience and contribute significantly by using my skills and knowledge to add value to the organization.
+                        </p>
+                        <a href="#" target="_blank" class="btn">Download Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--
     <section class="about" id="AboutMe">
         <div class="hero">
             <h1 class="title">About Me</h1>
@@ -67,6 +87,49 @@
                     I like to get a challenging career, where I can enhance my professional experience and contribute significantly by using my skills and knowledge to add value to the organization.
                 </p>
                 <a href="" target="_blank" class="btn">Download Resume</a>
+            </div>
+        </div>
+    </section>-->
+    <section class="hero education">
+        <div class="main-width">
+            <div class="container">
+                <div class="hero-text">
+                    <div class="title">
+                        <h1>Education</h1>
+                    </div>
+                    <div class="cards">
+                        <div class="item JHS">
+                                <h2>Junior High School</h2>
+                                <p>
+                                    Wawa National High School
+                                    <br>
+                                    2013 - 2019
+                                    <br>
+                                    Wawa Tanauan City Batangas
+                                </p>
+                        </div>
+                        <div class="item SHS">
+                                <h2>Senior High School</h2>
+                                <p>
+                                    NST - Nova Schola Tanauan
+                                    <br>
+                                    2018 - 2019
+                                    <br>
+                                    Sambat Tanauan City Batangas
+                                </p>
+                        </div>
+                        <div class="item College">
+                                <h2>College</h2>
+                                <p>
+                                    Batangas State University - Malvar
+                                    <br>
+                                    2018 - 2019
+                                    <br>
+                                    25V4+X9G, Malvar, Batangas
+                                </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -82,7 +145,7 @@
             backSpeed : 60,
             loop: true
         })
-        new Typed("#type2",{
+        new Typed(".input2",{
             strings:["Student.","Full Stack Developer.","UI/UX Designer.","Otaku / Weeb."],
             typeSpeed : 70,
             backSpeed : 60,
