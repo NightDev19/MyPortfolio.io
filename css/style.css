@@ -17,7 +17,7 @@
 /* hero background image */
 .bgimage {
   height: 100vh;
-  background: url("Pics/background.jpg");
+  background: url("https://github.com/NightDev19/MyPortfolio.io/blob/main/Pics/background.jpg?raw=true");
   background-size: cover;
   position: relative;
 }
