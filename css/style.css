@@ -6,28 +6,25 @@
 }
 .nav-link {
   margin-left: 10px;
-  transform: 0.4 ease-out;
-  border-radius: 10px;
 }
-.nav-link:hover {
-  background: green;
-  color: white;
-  border: none;
-}
+
 /* hero background image */
 .bgimage {
   height: 100vh;
-  background: url("/Pics/background.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://wallpaperaccess.com/full/3430.jpg");
   background-size: cover;
   position: relative;
 }
-*/
+
 /* text css above hero image*/
 .hero_title {
-  font-size: 4.5rem;
+  color: white;
+  font-size: 5.5rem;
 }
 .hero_desc {
-  font-size: 2rem;
+  color: white;
+  font-size: 4rem;
 }
 .hero-text {
   text-align: center;
@@ -62,6 +59,7 @@
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
   background-color: #12121286;
+  backdrop-filter: blur(10px) saturate(70%);
 }
 /* social media icons styling */
 .social-icons {
