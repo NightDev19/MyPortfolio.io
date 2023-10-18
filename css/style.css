@@ -249,7 +249,7 @@ section .title::after {
 /* Linear Gradient */
 .home .home-content .text-3 span {
   color: #1e3551;
-  background: linear-gradient(135deg, #041d3d, #fff, crimson);
+  background: linear-gradient(135deg, #094ba0, #1f3f85, crimson);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 500;
@@ -310,7 +310,7 @@ section .title::after {
 /* Linear Gradiant */
 .about .about-content .right .text span {
   /* color: #1e3551; */
-  background: linear-gradient(135deg, #041d3d, #fff, crimson);
+  background: linear-gradient(135deg, #041d3d, #1f3f85, crimson);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
